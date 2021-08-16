@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+    <link href="./style.css" rel="stylesheet" />
+    <title>Dictionary</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-light bg-light">
+                <div class="container-fluid  col-12 circle">
+                    <div class="emblem">Dictionary*Eduardo's*</div>
+                </div>
+            </nav>
+        </div>
+        <div class="row searchBar">
+            <div class="search html">
+                <input type="text" name="" id="word" placeholder="English Word" class="search__input">
+                <button type="submit" id="search" class="search__button" tabIndex="-1">Search</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container">
+                <div id="box">
+                    <img id="image" src="" style="width: 80px;">
+                    <h1 id="headDef"></h1>
+                    <h3 id="def"></h3>
+                </div>
+            </div>
+            <div class="container">
+                <div id="box2">
+                    <img id="image" src="" style="width: 80px;">
+                    <h1 id="headEx"></h1>
+                    <h3 id="ex"></h3>
+                    <audio controls id="mp3">
+                        <source src="" type="audio/mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </div>
+        <div class="alert alert-danger" id="error-get-list" style="display: none;" role="alert">
+            There was an error getting your request
+        </div>
+        
+        <footer class="row-fluid">
+           
+            <div class="row social">
+                <div class="rounded-social-buttons">
+                    <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <small>&copy; Copyright 2021, Vinoles Corp.</small>
+            </div>
+        </footer>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
