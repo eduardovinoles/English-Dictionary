@@ -195,7 +195,8 @@
 }
 #mp3 {
   display: none;
-  width: -webkit-fill-available;
+  width: 60%;
+  margin: auto;
 }
 footer {
   text-align: center;
