@@ -102,6 +102,8 @@ const cleaner = function () {
     document.getElementById("headEx").innerHTML = ""
     document.getElementById("ex").innerHTML = ""
     errorWarning.style.display = "none"
+    mp3.src = ""
+
     // console.log(errorWarning)
 }
 
