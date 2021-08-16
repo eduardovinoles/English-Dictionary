@@ -97,6 +97,10 @@ const srcMp3 = function (respuesta) {
     // console.log(mp3)
 }
 const cleaner = function () {
+    document.getElementById("headDef").innerHTML = ""
+    document.getElementById("def").innerHTML = ""
+    document.getElementById("headEx").innerHTML = ""
+    document.getElementById("ex").innerHTML = ""
     errorWarning.style.display = "none"
     // console.log(errorWarning)
 }
@@ -123,3 +127,5 @@ var Emblem = {
   };
   
   Emblem.init('.emblem');
+
+
